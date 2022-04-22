@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Starter App</string>
+    <string name="first_fragment_label">Main Fragment</string>
+    <string name="no_internet">Vi kunde inte ansluta till servern</string>
+    <string name="bad_credentials">Problem med ditt konto, vänligen prova logga in igen eller kontakta supporten</string>
+    <string name="error_unknown">Okänt fel, var vänlig kontakta support eller försök igen</string>
+</resources>
