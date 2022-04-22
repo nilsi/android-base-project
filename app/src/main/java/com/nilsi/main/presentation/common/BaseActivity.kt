@@ -1,4 +1,4 @@
-package com.nilsi.main.presentation.main.common
+package com.nilsi.main.presentation.common
 
 import android.os.Bundle
 import android.widget.Toast
@@ -7,9 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil.setContentView
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.lifecycleScope
-import com.main.presentation.main.common.UiEvent
-import com.main.presentation.main.common.UiEvent.ShowMessage
-import com.main.presentation.main.common.UiState
+import com.nilsi.main.presentation.common.UiEvent.ShowMessage
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel

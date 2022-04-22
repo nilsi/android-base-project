@@ -1,12 +1,10 @@
-package com.nilsi.main.presentation.main.common
+package com.nilsi.main.presentation.common
 
 import androidx.lifecycle.ViewModel
 import com.main.data.ServerError
 import com.main.data.ServerError.BadCredentials
 import com.main.data.ServerError.ConnectException
-import com.main.presentation.main.common.UiEvent
-import com.main.presentation.main.common.UiEvent.ShowMessage
-import com.main.presentation.main.common.UiState
+import com.nilsi.main.presentation.common.UiEvent.ShowMessage
 import com.nilsi.main.R
 import kotlinx.coroutines.flow.*
 

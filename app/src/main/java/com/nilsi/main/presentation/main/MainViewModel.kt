@@ -2,11 +2,11 @@ package com.nilsi.main.presentation.main
 
 import androidx.lifecycle.viewModelScope
 import com.main.data.Either
-import com.main.presentation.main.common.UiEvent.ShowMessage
+import com.nilsi.main.presentation.common.UiEvent.ShowMessage
 import com.nilsi.main.R
 import com.nilsi.main.domain.interfaces.repository.ProductRepository
 import com.nilsi.main.presentation.main.MainUiState.*
-import com.nilsi.main.presentation.main.common.BaseViewModel
+import com.nilsi.main.presentation.common.BaseViewModel
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 

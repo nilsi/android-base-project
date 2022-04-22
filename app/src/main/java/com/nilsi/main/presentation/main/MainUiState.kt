@@ -1,6 +1,6 @@
 package com.nilsi.main.presentation.main
 
-import com.main.presentation.main.common.UiState
+import com.nilsi.main.presentation.common.UiState
 
 sealed class MainUiState : UiState {
     object Initial : MainUiState()

@@ -1,4 +1,4 @@
-package com.nilsi.main.presentation.main.common
+package com.nilsi.main.presentation.common
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,8 +10,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.main.presentation.main.common.UiEvent
-import com.main.presentation.main.common.UiState
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel

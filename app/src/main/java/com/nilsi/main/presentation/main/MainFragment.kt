@@ -1,10 +1,10 @@
 package com.nilsi.main.presentation.main
 
 import android.widget.Toast
-import com.main.presentation.main.common.UiEvent
+import com.nilsi.main.presentation.common.UiEvent
 import com.nilsi.main.R
 import com.nilsi.main.databinding.FragmentMainBinding
-import com.nilsi.main.presentation.main.common.BaseFragment
+import com.nilsi.main.presentation.common.BaseFragment
 
 class MainFragment :
     BaseFragment<MainUiState, MainViewModel, FragmentMainBinding>(
